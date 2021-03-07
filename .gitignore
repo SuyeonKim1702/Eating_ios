@@ -35,6 +35,16 @@ DerivedData/
 *.dSYM.zip
 *.dSYM
 
+
+## Frameworks
+Pods
+DaumMap.framework
+../Pods
+../DaumMap.framework
+
+
+
+
 ## Playgrounds
 timeline.xctimeline
 playground.xcworkspace
