@@ -26,7 +26,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qc0-kz-fgG">
-                                <rect key="frame" x="42" y="643" width="330" height="63"/>
+                                <rect key="frame" x="20" y="643" width="374" height="63"/>
                                 <color key="backgroundColor" red="0.98561161760000005" green="0.92387253049999996" blue="0.30960255860000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="63" id="jYS-cr-v4R"/>
@@ -58,7 +58,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HOQ-5t-rae">
-                                <rect key="frame" x="42" y="730" width="330" height="63"/>
+                                <rect key="frame" x="20" y="730" width="374" height="63"/>
                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="63" id="6JX-c5-TjB"/>
@@ -68,17 +68,17 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Qc0-kz-fgG" secondAttribute="trailing" constant="42" id="3qL-3a-Oj5"/>
-                            <constraint firstItem="HOQ-5t-rae" firstAttribute="leading" secondItem="Qc0-kz-fgG" secondAttribute="leading" id="7N2-7A-Ga1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Qc0-kz-fgG" secondAttribute="trailing" constant="20" id="3qL-3a-Oj5"/>
                             <constraint firstItem="bfb-vI-hjG" firstAttribute="leading" secondItem="XPU-OF-NOE" secondAttribute="leading" id="7YP-pu-pko"/>
-                            <constraint firstItem="HOQ-5t-rae" firstAttribute="trailing" secondItem="Qc0-kz-fgG" secondAttribute="trailing" id="9bq-ZW-97Z"/>
+                            <constraint firstItem="HOQ-5t-rae" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="AhB-7b-FrR"/>
                             <constraint firstItem="2No-9v-Acb" firstAttribute="leading" secondItem="XPU-OF-NOE" secondAttribute="leading" id="KdQ-6z-6RD"/>
                             <constraint firstItem="XPU-OF-NOE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="Mw9-vv-aCJ"/>
                             <constraint firstItem="bfb-vI-hjG" firstAttribute="top" secondItem="2No-9v-Acb" secondAttribute="bottom" constant="8" symbolic="YES" id="OYo-f4-8Iu"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="HOQ-5t-rae" secondAttribute="bottom" constant="69" id="Ufm-Ux-0Mj"/>
                             <constraint firstItem="HOQ-5t-rae" firstAttribute="top" secondItem="Qc0-kz-fgG" secondAttribute="bottom" constant="24" id="X4C-eC-r5O"/>
-                            <constraint firstItem="Qc0-kz-fgG" firstAttribute="leading" secondItem="XPU-OF-NOE" secondAttribute="leading" id="dUI-lJ-B2n"/>
                             <constraint firstItem="2No-9v-Acb" firstAttribute="top" secondItem="XPU-OF-NOE" secondAttribute="bottom" constant="40" id="kCK-1W-BsS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HOQ-5t-rae" secondAttribute="trailing" constant="20" id="mJP-pJ-hqN"/>
+                            <constraint firstItem="Qc0-kz-fgG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="nGe-AK-dQL"/>
                             <constraint firstItem="XPU-OF-NOE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="42" id="oYM-gX-cc4"/>
                         </constraints>
                     </view>

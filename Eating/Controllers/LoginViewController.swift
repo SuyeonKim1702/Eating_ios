@@ -26,6 +26,10 @@ class LoginViewController: UIViewController, ASAuthorizationControllerDelegate, 
             appleButtonPlaceHolder?.addSubview(appleLoginBtn)
             appleLoginBtn.frame = appleButtonPlaceHolder!.bounds
             appleLoginBtn.addTarget(self, action: #selector(tapAppleLogInButton), for: .touchUpInside)
+            //appleLoginBtn.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 20).isActive = true
+            //appleLoginBtn.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -20).isActive = true
+            //appleLoginBtn.heightAnchor.constraint(equalToConstant: 63).isActive = true
+
         } else {
             // Fallback on earlier versions
             //TODO: 알림창 띄워주기 버전 업데이트 관련해서
